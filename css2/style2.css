@@ -1,0 +1,153 @@
+/* sample.html css */
+
+* {
+    max-width: 100;
+    padding: 100;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html{
+    font-size: 10px;  /* 폰트 사이즈 기준 rem */
+}
+
+.articles1{
+    width: 100%;
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: #8d76e2;
+}
+
+.title1 {
+  
+    width: 100%;
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+
+.title1 img{
+    width: 30px;
+}
+
+.title1 strong {
+    font-size: 20px;
+    color: #8d76e2;
+    
+}
+
+.articles1 .title2{
+    text-align: center;
+    color: #fff;
+}
+
+.articles1 .title2 strong{     /* inline 태그 */
+    font-size: 3.2rem;
+}
+    
+.articles1 .title2 p{         /* block 태그 */    
+    margin-top: 20px;
+    line-height: 140%;                
+    font-size: 1.6rem;
+
+}
+
+.articles1 .items {
+    margin-top: 30px;
+}
+
+.articles1 .item{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+}
+
+.articles1 .item:first-child{
+    margin-top: 0;
+}
+
+.articles1 .item strong{
+    font-size: 1.5rem;
+
+}
+
+.articles1 .item p{
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.articles1 .item span,
+.articles1 .item a{
+    font-size: 1.2rem;
+    color: #999;
+}
+
+.articles1 .item a{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    text-decoration: underline;
+}
+
+.articles2 .title3 img{
+    width: 50%;
+}
+
+.articles2 .title3 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+
+.articles3{
+    width: 100%;
+    padding: 35px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.articles4 {
+    width: 100%;
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: #8d76e2;
+    color: #fff;
+    font-size: 21px;
+    text-align: center;
+    
+}
+
+.articles4 a{
+    margin-top: 100px;
+}
+
+.wrap{
+    background: url(../img/bg2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+
+
+
